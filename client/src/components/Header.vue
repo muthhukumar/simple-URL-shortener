@@ -12,14 +12,14 @@ export default {
 
 <style scoped>
 .nav-bar {
+  grid-area: title;
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 .header {
   color: var(--black);
   font-size: 3rem;
   font-weight: bold;
-  text-align: center;
   margin: 1rem 0;
 }
 </style>

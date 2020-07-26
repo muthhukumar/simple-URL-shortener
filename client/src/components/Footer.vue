@@ -12,17 +12,15 @@ export default {
 
 <style scoped>
 .footer {
-  width: 100%;
-  position: fixed;
-  z-index: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 1rem 0;
+  grid-area: footer;
   background: var(--white);
+  align-self: end;
 }
 .footer p {
-  color: var(--black);
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+  color: #959595;
 }
 </style>

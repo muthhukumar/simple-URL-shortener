@@ -33,7 +33,9 @@ export default {
 .wrapper {
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 29.8rem;
+  width: 100%;
+  max-width : 31rem;
+  margin: 0.5rem 0;
   padding: 1rem;
   position: relative;
 }
@@ -44,8 +46,8 @@ h4 {
   width: 2rem;
   height: 2rem;
   position: absolute;
-  top: 0.7rem;
-  right: 0.7rem;
+  top: 0.3rem;
+  right: 0.3rem;
   border: none;
   background: white;
 }

@@ -1,10 +1,8 @@
 <template>
   <div class="home">
-    <div class="wrapper">
-      <Header />
-      <Body />
-      <Footer />
-    </div>
+    <Header />
+    <Body />
+    <Footer />
   </div>
 </template>
 
@@ -26,12 +24,11 @@ export default {
 <style scoped>
 .home {
   width: 100%;
+  display: grid;
   height: 100vh;
-  display: flex;
+  grid-template-columns: auto;
   justify-content: center;
-}
-.wrapper {
-  width: 80%;
-  height: 100%;
+  grid-template-areas: "title" "content" "footer";
+  grid-template-rows: 6rem auto auto;
 }
 </style>
